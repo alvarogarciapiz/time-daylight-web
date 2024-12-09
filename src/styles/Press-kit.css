@@ -1,0 +1,74 @@
+/* Press-kit.css */
+.press_press {
+  text-align: left;
+  padding: 20px;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.press_title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 20px;
+  font-family: var(--font-sf-pro-bold);
+}
+
+.press_subtitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 20px;
+  font-family: var(--font-sf-pro-bold);
+}
+
+.press_description {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 40px;
+  font-family: var(--font-sf-pro-regular);
+}
+
+.press_link {
+  color: #007bff;
+}
+
+.press_downloadButton {
+  background: linear-gradient(180deg, #232329 0%, #100F11 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 15px;
+  font-family: var(--font-sf-pro-semibold);
+  text-decoration: none;
+  text-align: center;
+}
+
+.press_downloadButton:hover {
+  background-color: #1a1a1d;
+}
+
+@media (max-width: 768px) {
+  .press_press {
+    margin-top: 0vh;
+    max-width: 100vw;
+  }
+
+  .press_title {
+    font-size: 2.5rem;
+    max-width: 100vw;
+  }
+
+  .press_subtitle {
+    font-size: 2.1rem;
+    max-width: 100vw;
+  }
+
+  .press_description {
+    font-size: 1.1rem;
+    max-width: 100vw;
+  }
+}
