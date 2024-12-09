@@ -1,0 +1,132 @@
+/* Faq.css */
+.faq_faq {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.faq_title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 20px;
+  font-family: var(--font-sf-pro-bold);
+}
+
+.faq_description {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 40px;
+  font-family: var(--font-sf-pro-regular);
+}
+
+.faq_faqList {
+  text-align: left;
+}
+
+.faq_faqItem {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 0;
+}
+
+.faq_question {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #131313;
+  font-family: var(--font-sf-pro-medium);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq_question:hover {
+  color: #000000;
+  transition-duration: 1s;
+}
+
+.faq_icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.faq_answer {
+  margin-top: 10px;
+}
+
+.faq_answer p {
+  font-size: 1.1rem;
+  color: #666;
+  font-family: var(--font-sf-pro-regular);
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.faq_contactSection {
+  margin-top: 60px;
+}
+
+.faq_contactTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 20px;
+  font-family: var(--font-sf-pro-bold);
+}
+
+.faq_contactDescription {
+  font-size: 1.25rem;
+  color: #666;
+  font-family: var(--font-sf-pro-regular);
+}
+
+.faq_contactDescription a {
+  color: #004da5;
+  text-decoration: none;
+}
+
+.faq_contactDescription a:hover {
+  color: #216fc7;
+  transition: 1s;
+}
+
+@media (max-width: 768px) {
+  .faq_faq {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .faq_title {
+    font-size: 2.5rem;
+  }
+
+  .faq_description {
+    font-size: 1.1rem;
+  }
+
+  .faq_question {
+    font-size: 1rem;
+  }
+
+  .faq_icon {
+    font-size: 1.2rem;
+  }
+
+  .faq_answer p {
+    font-size: 0.95rem;
+  }
+
+  .faq_contactTitle {
+    font-size: 1.75rem;
+  }
+
+  .faq_contactDescription {
+    font-size: 1.1rem;
+  }
+}

@@ -6,9 +6,12 @@ import './styles/globals.css'
 import Hero from './Hero.jsx'
 import Feat1 from './Feat1.jsx'
 import Feat2 from './Feat2.jsx'
+import Pricing from './Pricing.jsx'
 import Complications from './Complications.jsx'
 import Footer from './Footer.jsx'
 import Press from './Press-kit.jsx'
+import Privacy from './Privacy-policy.jsx'
+import Faq from './Faq.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,7 @@ const router = createBrowserRouter([
         <Hero />
         <Feat1 />
         <Feat2 />
+        <Pricing />
         <Complications />
         <Footer />
       </>
@@ -29,11 +33,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/faq", 
-    element: (<><Footer /></>)
+    element: (<><Faq /><Footer /></>)
   },
   {
     path: "/privacy-policy",
-    element: (<><Footer /></>)
+    element: (<><Privacy /><Footer /></>)
   }
 ]);
 

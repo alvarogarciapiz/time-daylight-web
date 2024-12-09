@@ -22,7 +22,6 @@ function Footer() {
         </div>
         <div className="footer_column">
           <h4 className="footer_columnTitle">Support</h4>
-          <a href="/blog" className="footer_link">Blog</a>
           <a href="/faq#contact" className="footer_link">Contact</a>
           <a href="/faq" className="footer_link">Help and FAQ</a>
           <a href="/press-kit" className="footer_link">Press Kit</a>

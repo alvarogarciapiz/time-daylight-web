@@ -1,0 +1,87 @@
+/* Pricing.css */
+.pricing_pricingContainer {
+  text-align: center;
+  padding: 20px;
+  margin: 20px 10vw;
+}
+
+.pricing_title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 20px;
+  font-family: var(--font-sf-pro-bold);
+  margin-bottom: 4vh;
+}
+
+.pricing_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pricing_price {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #131313;
+  font-family: var(--font-sf-pro-bold);
+  margin-bottom: 10px;
+  flex: 1;
+  text-align: left;
+}
+
+.pricing_descriptionContainer {
+  flex: 2;
+  text-align: right;
+}
+
+.pricing_description {
+  font-size: 1.5rem;
+  color: #666;
+  font-family: var(--font-sf-pro-regular);
+  margin-bottom: 20px;
+}
+
+.pricing_button {
+  background: linear-gradient(180deg, #232329 0%, #100F11 100%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 15px;
+  font-family: var(--font-sf-pro-semibold);
+}
+
+.pricing_button:hover {
+  background-color: #1a1a1d;
+}
+
+@media (max-width: 768px) {
+  .pricing_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing_price {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .pricing_descriptionContainer {
+    text-align: center;
+  }
+
+  .pricing_description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .pricing_button {
+    width: 100%;
+    padding: 8px 4px;
+  }
+}

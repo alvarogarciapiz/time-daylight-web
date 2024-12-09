@@ -1,12 +1,20 @@
+// Complications.jsx
 import './styles/Complications.css'
 
 function Complications() {
   return (
-    <>
-      <p className="parr">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="complications_complicationsCard">
+      <div className="complications_imageContainer">
+        <img
+          src="/AppIcon.png"
+          alt="Time in Daylight Complications"
+          className="complications_image"
+        />
+      </div>
+      <div className="complications_textContainer">
+        <h3 className="complications_title">Stay Informed with Personalized Complications</h3>
+      </div>
+    </div>
   )
 }
 

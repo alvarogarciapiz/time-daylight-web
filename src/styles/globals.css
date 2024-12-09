@@ -10,9 +10,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* globals.css */
 body {
-  margin: 0 auto;
-  display: block;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   overflow-x: hidden;
 }
