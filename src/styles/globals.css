@@ -11,7 +11,7 @@
 }
 
 /* globals.css */
-body {
+body :not("Footer") {
   margin: 0;
   display: flex;
   flex-direction: column;

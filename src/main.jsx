@@ -11,6 +11,7 @@ import Complications from './Complications.jsx'
 import Footer from './Footer.jsx'
 import Press from './Press-kit.jsx'
 import Privacy from './Privacy-policy.jsx'
+import InstallNow from './Install.jsx'
 import Faq from './Faq.jsx'
 
 const router = createBrowserRouter([
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
         <Feat2 />
         <Pricing />
         <Complications />
+        <InstallNow />
         <Footer />
       </>
     ),

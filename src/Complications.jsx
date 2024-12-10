@@ -6,7 +6,7 @@ function Complications() {
     <div className="complications_complicationsCard">
       <div className="complications_imageContainer">
         <img
-          src="/AppIcon.png"
+          src="/Complication.png"
           alt="Time in Daylight Complications"
           className="complications_image"
         />
