@@ -17,8 +17,7 @@ function Footer() {
         <div className="footer_column">
           <h4 className="footer_columnTitle">Product</h4>
           <a href="/#pricing" className="footer_link">Pricing</a>
-          <a href="/#features" className="footer_link">Features</a>
-          <a href="/" className="footer_link">About</a>
+          <a href="/" className="footer_link">Features</a>
         </div>
         <div className="footer_column">
           <h4 className="footer_columnTitle">Support</h4>

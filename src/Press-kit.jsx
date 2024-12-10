@@ -9,7 +9,7 @@ function Press() {
       <p className="press_description">
         This file includes beautiful visuals, app previews, and high-quality icons for Time in Daylight.
       </p>
-      <a href="/assets/time-daylight.zip" download className="press_downloadButton">
+      <a href="/time-daylight.zip" download className="press_downloadButton">
         Download Press Kit
       </a>
       <h3 className="press_subtitle">App Description</h3>
